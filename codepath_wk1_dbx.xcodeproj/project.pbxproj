@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		040FB2F01C67E79F004E041E /* CreateAccountRootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040FB2EF1C67E79F004E041E /* CreateAccountRootViewController.swift */; };
+		040FB2F21C67E7AF004E041E /* SignInRootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040FB2F11C67E7AF004E041E /* SignInRootViewController.swift */; };
+		040FB2F41C67E7F3004E041E /* CreateAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040FB2F31C67E7F3004E041E /* CreateAccountViewController.swift */; };
+		040FB2F61C67E827004E041E /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040FB2F51C67E827004E041E /* SignInViewController.swift */; };
+		040FB2F81C67EC0F004E041E /* TermsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040FB2F71C67EC0F004E041E /* TermsViewController.swift */; };
+		040FB2FA1C67F5F4004E041E /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040FB2F91C67F5F4004E041E /* SettingsViewController.swift */; };
+		040FB2FC1C680227004E041E /* TroubleSigningInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040FB2FB1C680227004E041E /* TroubleSigningInViewController.swift */; };
 		043A9F2D1C60514400230524 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043A9F2C1C60514400230524 /* AppDelegate.swift */; };
 		043A9F2F1C60514400230524 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043A9F2E1C60514400230524 /* ViewController.swift */; };
 		043A9F321C60514400230524 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 043A9F301C60514400230524 /* Main.storyboard */; };
@@ -34,6 +41,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		040FB2EF1C67E79F004E041E /* CreateAccountRootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateAccountRootViewController.swift; sourceTree = "<group>"; };
+		040FB2F11C67E7AF004E041E /* SignInRootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInRootViewController.swift; sourceTree = "<group>"; };
+		040FB2F31C67E7F3004E041E /* CreateAccountViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateAccountViewController.swift; sourceTree = "<group>"; };
+		040FB2F51C67E827004E041E /* SignInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		040FB2F71C67EC0F004E041E /* TermsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TermsViewController.swift; sourceTree = "<group>"; };
+		040FB2F91C67F5F4004E041E /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		040FB2FB1C680227004E041E /* TroubleSigningInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TroubleSigningInViewController.swift; sourceTree = "<group>"; };
 		043A9F291C60514400230524 /* codepath_wk1_dbx.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = codepath_wk1_dbx.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		043A9F2C1C60514400230524 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		043A9F2E1C60514400230524 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -100,6 +114,13 @@
 				043A9F2C1C60514400230524 /* AppDelegate.swift */,
 				043A9F2E1C60514400230524 /* ViewController.swift */,
 				043A9F301C60514400230524 /* Main.storyboard */,
+				040FB2FB1C680227004E041E /* TroubleSigningInViewController.swift */,
+				040FB2F91C67F5F4004E041E /* SettingsViewController.swift */,
+				040FB2F71C67EC0F004E041E /* TermsViewController.swift */,
+				040FB2F51C67E827004E041E /* SignInViewController.swift */,
+				040FB2F31C67E7F3004E041E /* CreateAccountViewController.swift */,
+				040FB2F11C67E7AF004E041E /* SignInRootViewController.swift */,
+				040FB2EF1C67E79F004E041E /* CreateAccountRootViewController.swift */,
 				043A9F331C60514400230524 /* Assets.xcassets */,
 				043A9F351C60514400230524 /* LaunchScreen.storyboard */,
 				043A9F381C60514400230524 /* Info.plist */,
@@ -256,8 +277,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				040FB2FC1C680227004E041E /* TroubleSigningInViewController.swift in Sources */,
+				040FB2F41C67E7F3004E041E /* CreateAccountViewController.swift in Sources */,
+				040FB2F21C67E7AF004E041E /* SignInRootViewController.swift in Sources */,
+				040FB2F61C67E827004E041E /* SignInViewController.swift in Sources */,
+				040FB2F01C67E79F004E041E /* CreateAccountRootViewController.swift in Sources */,
 				043A9F2F1C60514400230524 /* ViewController.swift in Sources */,
 				043A9F2D1C60514400230524 /* AppDelegate.swift in Sources */,
+				040FB2F81C67EC0F004E041E /* TermsViewController.swift in Sources */,
+				040FB2FA1C67F5F4004E041E /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -484,6 +512,7 @@
 				043A9F531C60514400230524 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		043A9F541C60514400230524 /* Build configuration list for PBXNativeTarget "codepath_wk1_dbxTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +521,7 @@
 				043A9F561C60514400230524 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		043A9F571C60514400230524 /* Build configuration list for PBXNativeTarget "codepath_wk1_dbxUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +530,7 @@
 				043A9F591C60514400230524 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
